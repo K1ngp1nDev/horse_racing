@@ -4,6 +4,7 @@ import svgLoader from 'vite-svg-loader'
 import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
+    base: 'horse_racing',
     resolve: {
         alias: {
             '@': fileURLToPath(new URL('./src', import.meta.url))
